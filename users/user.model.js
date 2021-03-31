@@ -8,7 +8,7 @@ function model(sequelize) {
         lastName: { type: DataTypes.STRING, allowNull: false },
         username: { type: DataTypes.STRING, allowNull: false },
         hash: { type: DataTypes.STRING, allowNull: false },
-        role: { type: DataTypes.ENUM('admin', 'user'), },
+        role: { type: DataTypes.ENUM('admin', 'user') },
         last_login: { type: DataTypes.DATE }
     };
 
