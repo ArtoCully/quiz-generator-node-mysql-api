@@ -9,7 +9,7 @@ function model(sequelize) {
         username: { type: DataTypes.STRING, allowNull: false },
         hash: { type: DataTypes.STRING, allowNull: false },
         role: { type: DataTypes.ENUM('admin', 'user') },
-        last_login: { type: DataTypes.DATE }
+        lastLogin: { type: DataTypes.DATE }
     };
 
     const options = {
